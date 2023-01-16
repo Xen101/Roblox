@@ -35,8 +35,8 @@ end
 Player = game.Players.LocalPlayer
 Character = Player.Character or Player.CharacterAdded:Wait()
 
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "OniHub no longer exists.",
-        Text = "People keep crying about how the hub is killing the game",
-        Duration = 10
-    })
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "OniHub no longer exists,",
+    Text = "We have moved past this game and no longer want people crying to us about it. Others may have saved the hub.",
+    Duration = 10
+})
