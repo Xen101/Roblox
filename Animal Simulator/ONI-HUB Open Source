@@ -37,6 +37,19 @@ Character = Player.Character or Player.CharacterAdded:Wait()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "OniHub no longer exists,",
-    Text = "We have moved past this game and no longer want people crying to us about it. Others may have saved the hub.",
-    Duration = 10
+    Text = "We have moved past this game and no longer want people crying to us about it.",
+    Duration = 60
+})
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Small Advertisement:",
+    Text = "Check out our own game 'Mystic Realms'. It's only a few weeks in development but it's getting there.",
+    Duration = 60
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "",
+    Text = "Blame Dex and Voix for being addicted to AS until Voix got banned. Thanks for banning him Rag. Now we can finally work on the game.",
+    Duration = 60
 })
